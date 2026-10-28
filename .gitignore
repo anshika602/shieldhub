@@ -1,0 +1,29 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Build output
+dist/
+**/dist/
+.next/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local development
+.DS_Store
+.vscode/
+.idea/
+# Backup of the old frontend Git repository
+frontend/.git-backup/
